@@ -1648,7 +1648,7 @@
                             <div class="contact-form col-sm-6 wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
                                 <div role="form" class="wpcf7" id="wpcf7-f5-o1" lang="ru-RU" dir="ltr">
                                     <div class="screen-reader-response"></div>
-                                    <form action="https://formspree.io/maypkdll" method="post" class="wpcf7-form" novalidate="novalidate">
+                                    <!-- <form action="https://formspree.io/maypkdll" method="post" class="wpcf7-form" novalidate="novalidate">
                                         <div style="display: none;">
                                             <input type="hidden" name="_wpcf7" value="5">
                                             <input type="hidden" name="_wpcf7_version" value="5.1.7">
@@ -1677,22 +1677,32 @@
                                                         class="wpcf7-form-control wpcf7-textarea"
                                                         aria-invalid="false"></textarea></span> </label></p>
                                         <p><input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span></p>
-                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
-                                    </form>
-                                    <!-- <form action="https://formspree.io/maypkdll" method="POST">
-                                        <label>
-                                            Your email:
-                                            <input type="text" name="_replyto">
-                                        </label>
-                                        <label>
-                                            Your message:
-                                            <textarea name="message"></textarea>
-                                        </label>
-
-                                       your other form fields go here 
-
                                         <button type="submit">Send</button>
-                                    </form> -->
+                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                    </form>-->
+                                    <form action="https://formspree.io/maypkdll" method="POST" novalidate="novalidate">
+                                        <p><label>Ваше ім'я<br>
+                                            <span ><input type="text"
+                                                    name="your-name" value="" size="90"
+                                                    
+                                                    aria-required="true" aria-invalid="false"></span> </label></p>
+                                        <p><label>Ваш Email<br>
+                                            <span ><input type="email"
+                                                    name="your-email" value="" size="90"
+                                                    
+                                                    aria-required="true" aria-invalid="false"></span> </label></p>
+                                        <p><label>Телефон<br>
+                                            <span ><input type="tel"
+                                                    name="tel-280" value="" size="90"
+                                                    
+                                                    aria-invalid="false"></span> </label></p>
+                                        <p><label>Повідомлення<br>
+                                            <span ><textarea
+                                                    name="your-message" cols="90" rows="10"
+                                                    
+                                                    aria-invalid="false"></textarea></span> </label></p>
+                                        <p><input type="submit" value="Надіслати"><span></span></p>
+                                    </form>
                                 </div>
                             </div>
                             <div class="col-sm-6 wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
@@ -1758,7 +1768,7 @@
     </div>
     <!-- #page -->
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         /* <![CDATA[ */
         var wpcf7 = {
             "apiSettings": {
@@ -1766,8 +1776,8 @@
                 "namespace": "contact-form-7\/v1"
             }
         };
-        /* ]]> */
-    </script>
+        /* ]]> */ 
+    </script>-->
     <script type="text/javascript" src="./LAWYER_files/scripts.js"></script>
     <script type="text/javascript" src="./LAWYER_files/plugins.js"></script>
     <script type="text/javascript" src="./LAWYER_files/bootstrap.min.js"></script>
